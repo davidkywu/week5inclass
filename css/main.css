@@ -1,0 +1,46 @@
+/*A bunch of other CSS*/
+/*.class{
+	*/
+/*@media screen and (min-width: 500px) {
+	.class{
+
+	}
+}*/
+
+/*@media only screen and (max-width: 500px) {*/
+	/*Whatever CSS you want*/
+/*}*/
+
+.box{
+	height: 200px;
+	width: 24%;
+	display: inline-block;
+}
+
+.grey{
+	background-color: grey;
+}
+
+.black{
+	background-color: black;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+@media(min-width: 1200px){
+	.box{
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px){
+	.blue, .black {
+		display: none;
+	}
+}
